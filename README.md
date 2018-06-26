@@ -20,7 +20,7 @@ In the case of gestures involving muscles involving such as finger movements, th
 
 # Research direction and goal 
 Develop hand gesture recognition algorithm and real time moving bionic hand by EMG signal classification.
-Capstan Design Goals 
+Capstone Design Goals 
 1.Configure and configure the LabVIEW circuit diagram to identify and save the EMG signal waveforms of the 10 hand gestures obtained with low-cost EMG sensors. 
 2. Three kinds of operation setting 
 3. Extract only EMG signals involved in actual operation after noise removal 
@@ -29,8 +29,10 @@ Capstan Design Goals
 6. Selecting the appropriate feature extraction combination and machine learning method by performing machine learning with MATLAB
 # Key Considerations
 For real time detection and low cost, it should have high hand gesture recognition rate while reducing computation complexity.
-
+# Material
+We need simple 3 thing for our research. 3 EMG sensors for Arduino/Raspberry Pi, Electrodes for with EMG sensor, Robotic Hand for Aurduino/Raspberry Pi. It's really cheap compared to current Prosthetic Arms.
 # Method
+Hand Gesture and Finding definite Muscles for Hand gesture
 Based on these results, we will focus on the feature extraction method and SVM and KNN machine learning method in the future. 
 
 # Result
