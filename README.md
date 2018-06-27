@@ -31,6 +31,8 @@ Capstone Design Goals
 For real time detection and low cost, it should have high hand gesture recognition rate while reducing computation complexity.
 # Material
 We need simple 3 thing for our research. 3 EMG sensors for Arduino/Raspberry Pi, Electrodes for with EMG sensor, Robotic Hand for Aurduino/Raspberry Pi. It's really cheap compared to current Prosthetic Arms.
+
+RoboticHand-EMG/Material.PNG
 # Method
 Hand Gesture and Finding definite Muscles for Hand gesture
 Based on these results, we will focus on the feature extraction method and SVM and KNN machine learning method in the future. 
