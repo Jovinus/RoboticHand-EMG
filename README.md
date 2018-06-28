@@ -73,13 +73,18 @@ The data results and Code at the upper parts.
 
 3. Machine Learning 
  We have to find best Machine Learning Method for real time detection of EMG Signal.
+ 
 A. Classification Method
+
 a.SVM
  A SVM can solve high-dimensional and nonlinear problems, but it doesn't provide a general solution to a nonlinear problem
+
 b. KNN
  KNN in simple to understand, easy to implement, and inexpensive in retraining, but may lead to inaccurate results when entering a new sample with an imbalanced data set
+
 c. LDA(linear Discriminant Analysis)
  LDA factor analyses look for linear combinations of variables that best fit the data.
+
 d. QDA(Quadratic Discriminant Analysis)
  QDA may result in problems with small samples in practical applications.
 
