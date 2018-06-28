@@ -37,9 +37,40 @@ We need simple 3 thing for our research. 3 EMG sensors for Arduino/Raspberry Pi,
 ![material](https://user-images.githubusercontent.com/32018719/42020431-d03823a4-7af2-11e8-80c1-5a3efe3fa51a.PNG)
 # Method
 Hand Gesture and Finding definite Muscles for Hand gesture
+
 1.Muscles Selecting
- ![muscle adaptation](https://user-images.githubusercontent.com/32018719/42020685-87c7a2ba-7af3-11e8-8f13-6220d0b09fe6.PNG)![muscles](https://user-images.githubusercontent.com/32018719/42020627-63285a08-7af3-11e8-874a-a80dafb52b38.PNG)
+ ![muscle adaptation](https://user-images.githubusercontent.com/32018719/42020685-87c7a2ba-7af3-11e8-8f13-6220d0b09fe6.PNG)
+ ![muscles](https://user-images.githubusercontent.com/32018719/42020627-63285a08-7af3-11e8-874a-a80dafb52b38.PNG)
+ ![gestures1](https://user-images.githubusercontent.com/32018719/42020907-34f6404a-7af4-11e8-855a-9de8f6e4281f.PNG)
+ ![gestures2](https://user-images.githubusercontent.com/32018719/42020911-36c41956-7af4-11e8-8472-a1d539258d99.PNG)
+ 
+Like the picture on the upper part. We attach electrodes to the muscle in definite place and insert EMG sensor to DAQ and make a code to load a data by LabVIEW
+
+ ![laview](https://user-images.githubusercontent.com/32018719/42020880-20b1b8bc-7af4-11e8-9364-e27521f54803.PNG)
+ ![1](https://user-images.githubusercontent.com/32018719/42020980-6ce1e2b6-7af4-11e8-8175-c65f66ae3e3b.PNG)
+ ![2](https://user-images.githubusercontent.com/32018719/42020981-6d275e9a-7af4-11e8-9582-26b209cd48d8.PNG)
+ 
 2.Preprocessing
+ When we open the data, we could find a huge noises from DAQ that came from DAQ starting session.
+ 
+ ![problem](https://user-images.githubusercontent.com/32018719/42021066-9f94bb34-7af4-11e8-89f7-260df5de5374.PNG)
+ 
+ So we put bullet button to solve these problems.
+ 
+ ![bullet button3](https://user-images.githubusercontent.com/32018719/42021230-053fb54c-7af5-11e8-86a5-2b560d6e50b5.PNG)
+![bullet button](https://user-images.githubusercontent.com/32018719/42021231-05758258-7af5-11e8-8a4b-fbde9195bec2.PNG)
+![bullet button2](https://user-images.githubusercontent.com/32018719/42021232-05a82352-7af5-11e8-8529-ef5e00a42162.PNG)
+
+There is number one at the last collum that means "meaningful Action". So we collteting the data between number one at the last collum.
+After that we set a Threshold Voltage to set a exact begining of gesture.
+
+![threshold](https://user-images.githubusercontent.com/32018719/42021415-7c773c5c-7af5-11e8-9a8d-a4a983d80c97.PNG)
+![threshold2](https://user-images.githubusercontent.com/32018719/42021417-7cb4bc8a-7af5-11e8-889c-00f57f9dc277.PNG)
+![threshold3](https://user-images.githubusercontent.com/32018719/42021418-7cea1efc-7af5-11e8-816d-3b25d39a97e7.PNG)
+![thresholdcode](https://user-images.githubusercontent.com/32018719/42021419-7d1d5e0c-7af5-11e8-8b7b-9cd2b796296b.PNG)
+
+The data results and Code at the upper parts.
+
 3. Machine Learning 
  We have to find best Machine Learning Method for real time detection of EMG Signal.
 A. Classification Method
