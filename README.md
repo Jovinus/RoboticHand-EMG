@@ -3,7 +3,9 @@
 When we performed 6 Feature Extraction Methods in Machine Learning, we found techniques that show high recognition rate. It can be seen that WL (Wave Length) is the technique with the highest recognition rate and RMS (Root Mean Square) is the next highest technique. On the other hand, the ZC (Zero Crossing) technique showed the lowest recognition rate of 50%. As a result of 4, 5 and 6 Feature Extraction Method Combinations based on techniques with high recognition rate, machine learning was performed. Waveform Length (WL), Root Mean Square (RMS), Mean Absolute Value (MAV) Sign Change) and Machine Learning Method of KNN (K-Nearest Neighbors) showed high recognition rate. The maximum recognition rate of scissors, rocks, and beam motion for the four combinations of WL (Waveform Length), Root Mean Square (RMS), Mean Absolute Value (MAV), and Slope Sign Change.
 
 # INTRODUCTION
-Electromyogram (EMG) signals are the curves of electrical signals that occur when muscle cells are electrically activated from nerve signals during muscle contraction, indicating 'muscle movement during human motion'. Recently, human-robot interaction (HRI) technology using bio-signals has been actively studied. Since the EMG signal among the vital signals is mainly measured by attaching the electrode to the surface of the arm, it is relatively easy and easy to measure the signal compared to other vital signal measuring methods. Also, since the measured value is constant compared with other vital signals The signal can be measured accurately. Based on these advantages, it is widely used in HRI technology. 
+![default](https://user-images.githubusercontent.com/32018719/42020556-23d8a02e-7af3-11e8-8f51-8aed5f07ae7c.PNG)
+
+ Electromyogram (EMG) signals are the curves of electrical signals that occur when muscle cells are electrically activated from nerve signals during muscle contraction, indicating 'muscle movement during human motion'. Recently, human-robot interaction (HRI) technology using bio-signals has been actively studied. Since the EMG signal among the vital signals is mainly measured by attaching the electrode to the surface of the arm, it is relatively easy and easy to measure the signal compared to other vital signal measuring methods. Also, since the measured value is constant compared with other vital signals The signal can be measured accurately. Based on these advantages, it is widely used in HRI technology. 
 
 1. Patient who cut a part of the body.
  There are many people in the world who have lost some of their bodies in the event of injustice, but they are having difficulty in competing with others in society because the body is not functioning properly. In order to improve the situation, it is necessary to use auxiliary equipment including mental aids, but mainly for economic reasons, less than 20% of them wear auxiliary aids. Even ancillary equipment, such as those worn primarily by them, have a number of limitations that make them easy to operate or to achieve sophisticated operation. People who need strength
@@ -31,10 +33,12 @@ Capstone Design Goals
 For real time detection and low cost, it should have high hand gesture recognition rate while reducing computation complexity.
 # Material
 We need simple 3 thing for our research. 3 EMG sensors for Arduino/Raspberry Pi, Electrodes for with EMG sensor, Robotic Hand for Aurduino/Raspberry Pi. It's really cheap compared to current Prosthetic Arms.Let's see a picture on the upper list. 3 Materials can be seen.
-https://github.com/Jovinus/RoboticHand-EMG/blob/master/Material.PNG
+
+![material](https://user-images.githubusercontent.com/32018719/42020431-d03823a4-7af2-11e8-80c1-5a3efe3fa51a.PNG)
 # Method
 Hand Gesture and Finding definite Muscles for Hand gesture
 1.Muscles Selecting
+ ![muscle adaptation](https://user-images.githubusercontent.com/32018719/42020685-87c7a2ba-7af3-11e8-8f13-6220d0b09fe6.PNG)![muscles](https://user-images.githubusercontent.com/32018719/42020627-63285a08-7af3-11e8-874a-a80dafb52b38.PNG)
 2.Preprocessing
 3. Machine Learning 
  We have to find best Machine Learning Method for real time detection of EMG Signal.
@@ -53,6 +57,7 @@ Based on these results, we will focus on the feature extraction method and SVM a
 
 # Result
 Based on these results, we will focus on the feature extraction method and SVM and KNN machine learning method in the future. 
+
 ![default](https://user-images.githubusercontent.com/32018719/42019809-089a6100-7af1-11e8-903e-7d9c0eeb226e.PNG)
 # Conclusion
 Based on these results, we will focus on the feature extraction method and SVM and KNN machine learning method in the future. 
