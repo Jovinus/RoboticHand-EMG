@@ -69,7 +69,20 @@ After that we set a Threshold Voltage to set a exact begining of gesture.
 ![threshold3](https://user-images.githubusercontent.com/32018719/42021418-7cea1efc-7af5-11e8-816d-3b25d39a97e7.PNG)
 ![thresholdcode](https://user-images.githubusercontent.com/32018719/42021419-7d1d5e0c-7af5-11e8-8b7b-9cd2b796296b.PNG)
 
-The data results and Code at the upper parts.
+And we serve Feature Extractions.
+
+![default](https://user-images.githubusercontent.com/32018719/42021763-6b474746-7af6-11e8-979d-ffaee607b8f3.PNG)
+
+So we select 6 feature extractions and test in Whole signal Preprocessing
+Let's see a picture in under part.
+
+![1](https://user-images.githubusercontent.com/32018719/42021924-e01a3998-7af6-11e8-8d4e-620b26af90a3.PNG)
+![2](https://user-images.githubusercontent.com/32018719/42021922-dfb4c64e-7af6-11e8-991d-6085cb225063.PNG)
+![3](https://user-images.githubusercontent.com/32018719/42021923-dfe810b2-7af6-11e8-942d-4d1af9b04e34.PNG)
+
+We progress this procedure by using these codes.
+Analyzing.m , FeatureExtraction.m, Fist.m, Loading.m, Paper.m, Scissor.m, TPlot.m, TestingArray.m, ThresPlot.m, Threshold.m
+There are annotation inside matlab code and python code
 
 3. Machine Learning 
  We have to find best Machine Learning Method for real time detection of EMG Signal.
@@ -95,5 +108,7 @@ Based on these results, we will focus on the feature extraction method and SVM a
 Based on these results, we will focus on the feature extraction method and SVM and KNN machine learning method in the future. 
 
 ![default](https://user-images.githubusercontent.com/32018719/42019809-089a6100-7af1-11e8-903e-7d9c0eeb226e.PNG)
+
+QSVM shows the most high accuracy in the table. 98.3%!!!!
 # Conclusion
 Based on these results, we will focus on the feature extraction method and SVM and KNN machine learning method in the future. 
